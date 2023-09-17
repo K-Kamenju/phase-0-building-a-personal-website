@@ -2,6 +2,7 @@
 /* Global */
 :root {
     --background-color: #fcf9f2;
+    --background02-color: #ddd2b7;
     --main-color: #b4a177;
     --textTypeOne-color: #919191;
     --textTypeTwo-color: #343446;
@@ -39,15 +40,46 @@ img {
     justify-content: center; 
 }
 
+.column-1 {
+    margin-right: 20px;
+}
+
+.column-2 {
+    margin-left: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--textTypeTwo-color);
+    color: var(--main-color);
+    border: 1px solid;
+    border-radius: 7%;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.button:hover {
+    color: var(--background-color);
+    background: #1c1c25;
+}
+
 /* End of Global */
+
+
+
+
+
+
 
 /* Header */
 
 header {
     width: 100%;
-    background-color: var(--background-color);
+    background-color: var(--background02-color);
     overflow: hidden;
-    padding: 40px 0;
+    padding: 30px 0;
 }
 
 header .container {
@@ -63,7 +95,7 @@ header .container {
 .container #logo {
     display: flex;
     color: var(--textTypeOne-color);
-    font-size: 120%;
+    font-size: 170%;
     text-transform: uppercase;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -105,6 +137,7 @@ nav .lists a.hire-me:hover {
 
 /* Section - Showcase */
 
+
 #showcase .container {
     display: grid;
     grid-template-columns: 2fr 3fr;
@@ -112,6 +145,7 @@ nav .lists a.hire-me:hover {
     justify-content: center;
     text-align: left;
 }
+
 
 #showcase {
     width: 100%;
@@ -122,4 +156,79 @@ nav .lists a.hire-me:hover {
     
 }
 
+.container h2 {
+    font-size: 50px;
+    line-height: 1;
+    color: var(--textTypeTwo-color);
+    text-transform: uppercase;
+}
+
+.container p {
+    font-size: 25px;
+    color: var(--textTypeOne-color);
+    line-height: 1;
+    margin: 20px 0;
+}
+
+.container img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#image-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+
+
 /* End of Section - Showcase */
+
+/* Section - Newsletter */
+
+#newsletter {
+    color: #fff;
+    padding: 15px;
+    background: var(--background02-color);
+    
+}
+
+#newsletter .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#newsletter h1 {
+    margin: 15px 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: var(--textTypeOne-color);
+    display: flex;
+}
+
+#newsletter form {
+    float: right;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+   
+}
+
+#newsletter input[type="email"] {
+    padding: 10px 20px;
+    height: 40px;
+    width: 350px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+/* End of Section - Newsletter */
