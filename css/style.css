@@ -245,24 +245,36 @@ nav .lists a.hire-me:hover {
     
 }
 
-section#boxes .container .align {
+#boxes .align {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 40px 20px;
-}
-
-
-#boxes .box img {
-    width: 90px;
-    margin-top: 10;
-    margin-bottom: 10px;
     
 }
 
+#boxes .box {
+    padding: 40px 70px;
+}
 
+#boxes .box .icon {
+    margin: 10px auto;
+    width: 90px;
+    
+
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--textTypeTwo-color);
+}
+
+.button .small {
+    font-size: 15px; 
+}
 
 
 /* End of Section - Boxes */
