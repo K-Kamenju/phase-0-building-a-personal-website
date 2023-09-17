@@ -191,7 +191,6 @@ nav .lists a.hire-me:hover {
 /* Section - Newsletter */
 
 #newsletter {
-    color: #fff;
     padding: 15px;
     background: var(--background02-color);
     
@@ -227,8 +226,43 @@ nav .lists a.hire-me:hover {
 }
 
 
-
-
-
-
 /* End of Section - Newsletter */
+
+
+/* Section - Boxes */
+
+#boxes {
+    width: 100%;
+    background-color: var(--background-color);
+    overflow: hidden;
+    padding: 40px 0;
+    margin-top: 50 px;
+}
+
+#boxes .container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+section#boxes .container .align {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+
+#boxes .box img {
+    width: 90px;
+    margin-top: 10;
+    margin-bottom: 10px;
+    
+}
+
+
+
+
+/* End of Section - Boxes */
