@@ -1,0 +1,92 @@
+
+/* Global */
+:root {
+    --background-color: #fcf9f2;
+    --main-color: #b4a177;
+    --textTypeOne-color: #919191;
+    --textTypeTwo-color: #343446;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*This allows my code to not to be affected by margins or borders*/
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+.lists {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+    padding: 0px 50px;
+    overflow: hidden;
+}
+
+/* End of Global */
+
+/* Header */
+
+header {
+    width: 100%;
+    background-color: var(--background-color);
+    overflow: hidden;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .lists {
+    display: flex;
+}
+
+.container #logo {
+    display: flex;
+    color: var(--textTypeOne-color);
+    font-size: 120%;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav .lists .hire-me {
+    background-color: var(--textTypeTwo-color);
+    color: var(--main-color);
+    border: 1px solid;
+    border-radius: 7%;
+}
+
+
+.lists a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: var(--textTypeTwo-color);
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+.logo-text {
+    color: var(--main-color);
+}
+
+
+
+
+/* End of Header */
