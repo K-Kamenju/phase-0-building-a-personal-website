@@ -17,10 +17,6 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    color: red;
-}
-
 .lists {
     list-style: none;
 }
@@ -36,6 +32,13 @@ img {
     overflow: hidden;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center; 
+}
+
 /* End of Global */
 
 /* Header */
@@ -44,6 +47,7 @@ header {
     width: 100%;
     background-color: var(--background-color);
     overflow: hidden;
+    padding: 40px 0;
 }
 
 header .container {
@@ -72,7 +76,7 @@ nav .lists .hire-me {
 }
 
 
-.lists a {
+nav .lists a {
     display: inline-block;
     padding: 10px 20px;
     color: var(--textTypeTwo-color);
@@ -82,11 +86,40 @@ nav .lists .hire-me {
 
 }
 
-.logo-text {
+nav .lists a:hover {
     color: var(--main-color);
 }
 
 
+nav .lists a.hire-me:hover {
+    color: var(--background-color);
+    background: #1c1c25;
+}
 
+.logo-text {
+    color: var(--main-color);
+}
 
 /* End of Header */
+
+
+/* Section - Showcase */
+
+#showcase .container {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+#showcase {
+    width: 100%;
+    background-color: var(--background-color);
+    overflow: hidden;
+    padding: 40px 0;
+    margin-top: 50 px;
+    
+}
+
+/* End of Section - Showcase */
