@@ -388,3 +388,84 @@ footer #row2 .myLogo {
 
 
 /* End of Section - Footer */
+
+
+
+
+
+
+/* page2&3 About Section - Main */
+
+#main #main-col ul {
+    list-style: none;
+}
+
+
+#main #main-col ul h3 {
+    margin: 15px 0;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: var(--textTypeOne-color);
+}
+
+
+
+aside#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+aside#sidebar .qoute input {
+    width: 80%;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+body#main .container aside#sidebar .qoute #message textarea {
+    width: 80%;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+aside#sidebar .dark h3 {
+    margin: 15px 0;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: var(--textTypeOne-color);
+}
+
+
+#main-col h1 {
+    margin: 15px 0;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: var(--textTypeOne-color);
+}
+
+aside#sidebar .dark p {
+    margin: 15px 0;
+    font-size: 15px;
+    color: var(--textTypeOne-color);
+}
+
+
+
+aside#sidebar .dark {
+    padding: 10px 20px;
+    background-color: var(--textTypeTwo-color);
+    color: var(--main-color);
+    border: 1px solid;
+    border-radius: 7%;
+    font-weight: 500;
+}
+
+
+article#main-col {
+    float: left;
+    width: 65%;
+    margin-top: 10px;
+}
+
+
+/* End of Section - Main */
