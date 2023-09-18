@@ -278,3 +278,113 @@ h3 {
 
 
 /* End of Section - Boxes */
+
+
+/* Section - Sticky Icons */
+
+.fa {
+    color: var(--textTypeTwo-color);
+}
+
+
+section#sticky-icons .link-icons1 {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    top: 200px;
+    position: fixed;
+}
+
+
+
+section#sticky-icons .link-icons2 {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    top: 250px;
+    position: fixed;
+}
+
+
+section#sticky-icons .link-icons3 {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    top: 300px;
+    position: fixed;
+}
+
+section#sticky-icons .link-icons4 {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    top: 350px;
+    position: fixed;
+}
+
+/* End of Section - Sticky Icons */
+
+
+
+/*  Section - Footer */
+
+footer {
+    padding: 15px;
+    background: var(--background02-color);
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+footer #row1 {
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 30px;
+    border-bottom: 3px var(--main-color) solid;
+}
+
+#row1 h2 {
+    margin: 15px 0;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: var(--textTypeOne-color);
+}
+
+#row1 h3 {
+    margin: 15px 0;
+    font-size: 25px;
+    text-transform: capitalize;
+    color: var(--textTypeOne-color);
+}
+
+#row1 p {
+    font-size: 20px;
+    color: var(--textTypeOne-color);
+    line-height: 1;
+    margin: 20px 0;
+}
+
+footer #row2 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer #row2 .myLogo {
+    display: flex;
+}
+
+#row2 p {
+    font-size: 20px;
+    color: var(--textTypeOne-color);
+    line-height: 1;
+    margin: 20px 0;
+}
+
+
+
+
+
+
+/* End of Section - Footer */
