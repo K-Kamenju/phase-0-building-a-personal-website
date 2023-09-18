@@ -48,7 +48,7 @@ img {
     margin-left: 20px;
 }
 
-.button {
+.button, #button {
     display: inline-block;
     padding: 10px 20px;
     background-color: var(--textTypeTwo-color);
@@ -102,7 +102,7 @@ header .container {
 
 nav .lists .hire-me {
     background-color: var(--textTypeTwo-color);
-    color: var(--main-color);
+    color: var(--background02-color);
     border: 1px solid;
     border-radius: 7%;
 }
